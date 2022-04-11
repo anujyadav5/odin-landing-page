@@ -10,13 +10,15 @@
     padding-top: 16px;
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 500px;
 }
 
 .header,
 .content,
 .info-heading,
-.info-content {
+.info-content,
+.q-text,
+.attribution {
     max-width: 900px;
 }
 
@@ -88,7 +90,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;  
-    height: 400px;  
+    height: 500px;  
     
 }
 
@@ -116,4 +118,26 @@ img {
 .info-content li img {
     border: 6px solid goldenrod;
     border-radius: 10px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #e5e7eb;
+}
+
+.q-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.attribution {
+    font-weight: bold;
+    font-size: 30px;
+    width: 100%;
+    text-align: right;
 }
